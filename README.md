@@ -8,6 +8,7 @@ Frontend developer. I build small, local-first open-source tools for people who 
 
 | Project | What it does | |
 |---|---|---|
+| [**casesheet**](https://github.com/caiqianha/casesheet) | Test-case tables (Markdown, CSV, Excel) in, runnable Playwright specs out. Chinese and English steps, no LLM, zero dependencies. | [![npm](https://img.shields.io/npm/v/casesheet?label=npm)](https://www.npmjs.com/package/casesheet) |
 | [**claude-code-ledger**](https://github.com/caiqianha/claude-code-ledger) | Cost and tool-call audit for Claude Code. Finds wasted context: repeated reads, blind retries, huge tool outputs. Status line, Stop hook, HTML report. | [![npm](https://img.shields.io/npm/v/claude-code-ledger?label=npm)](https://www.npmjs.com/package/claude-code-ledger) |
 | [**vue-skills**](https://github.com/caiqianha/vue-skills) | 11 opinionated Agent Skills for Vue 3, Element Plus admin apps, WeChat Mini Programs and uni-app. Judgment and checklists, not API docs. Works with Claude Code, Cursor, Codex. | [![skills](https://img.shields.io/badge/skills-11-blue)](https://github.com/caiqianha/vue-skills#skills) |
 | [**mindlook**](https://github.com/caiqianha/mindlook) | View `.xmind` files in the browser. One HTML file, no install, offline PWA, nothing uploaded. | [![demo](https://img.shields.io/badge/demo-live-brightgreen)](https://caiqianha.github.io/mindlook/) |
@@ -16,6 +17,7 @@ Frontend developer. I build small, local-first open-source tools for people who 
 #### Try one in ten seconds
 
 ```bash
+npx casesheet init                # test-case sheet → Playwright specs
 npx claude-code-ledger            # where did my Claude Code tokens go?
 npx skills add caiqianha/vue-skills   # Vue 3 skills into your agent
 ```
